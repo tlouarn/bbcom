@@ -1,5 +1,12 @@
-# bbcom
-Excel VBA wrapper for the low-level Bloomberg COM API. Currently supports low-level calls to `BDP` (Bloomberg Data Point) and `BDH` (Bloomberg Data History) calls.
+## bbcom
+
+![Excel VBA](https://img.shields.io/badge/Excel-VBA-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Excel VBA wrapper for the Bloomberg COM API (v3.5).
+
+> [!WARNING]
+> Currently only supports low-level calls to `//blp/refdata` service used for both `BDP` (Bloomberg Data Point) and `BDH` (Bloomberg Data History) functions.
 
 ## Installation
 1. Open a new Excel workbook
